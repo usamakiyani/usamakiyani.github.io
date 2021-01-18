@@ -84,7 +84,8 @@
 						<!-- <li><a href="#" data-nav-section="blog">Blog</a></li> -->
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 						<li>
-								<a href="https://usamakiyani.github.io/CV.pdf" target="_blank" class="btn btn-primary btn-learn">Download Resume 
+								<a id="CVButton" href="#" class="btn btn-primary btn-learn">
+								Download Resume
 								 <i class="icon-download4"></i>
 								</a>
 						</li>
@@ -1110,6 +1111,11 @@ TransferHome is an web application that allows you to easily, securely and quick
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<script>
+	$("#CVButton").click(function(){
+	window.open("https://usamakiyani.github.io/CV.pdf",'_blank');}
+	);
+	</script>
 
 	</body>
 </html>
